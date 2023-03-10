@@ -22,5 +22,7 @@ public class Client {
         for (Integer in: sortedList) {
             System.out.println(in);
         }
+
+        es.shutdown();
     }
 }

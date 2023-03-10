@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/helloworldprinter/HelloWorldPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/helloworldprinter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/mergesort/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/mergesort/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/printtillhundred/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/printtillhundred/NumberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/printtillhundredexecutor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/printtillhundredexecutor/NumberPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Subtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/mergesort/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/mergesort/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.scaler.printtillhundredexecutor" />
@@ -159,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677859835586</updated>
       <workItem from="1677859837050" duration="5831000" />
-      <workItem from="1678118998389" duration="5388000" />
+      <workItem from="1678118998389" duration="7253000" />
+      <workItem from="1678465895840" duration="350000" />
     </task>
     <servers />
   </component>
@@ -188,6 +179,20 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/scaler/mergesort/Sorter.java</url>
           <line>21</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Adder.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Client.java</url>
+          <line>10</line>
+          <properties class="com.scaler.addersubtractor.Client" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
