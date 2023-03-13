@@ -16,12 +16,26 @@ public class Adder implements Runnable {
     public void run() {
 //        lock.lock();
         for (int i = 1; i <= 1000; ++i) {
+
+            ///
+
+            ////
+
+            ///
+            //
+
+
             lock.lock();
             if (i >= 500) {
                 System.out.println("STOP");
             }
             count.value += i;
             lock.unlock();
+            ///
+            ///
+            ///
+            ///
+
         }
 //        lock.unlock();
     }
