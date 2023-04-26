@@ -1,2 +1,4 @@
-package com.scaler.lld.inheritance;public class Mentor {
+package com.scaler.lld.inheritance;
+
+public class Mentor extends User {
 }

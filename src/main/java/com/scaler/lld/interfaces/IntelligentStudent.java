@@ -1,2 +1,4 @@
-package com.scaler.lld.interfaces;public class IntelligentStudent {
+package com.scaler.lld.interfaces;
+
+public class IntelligentStudent implements Student {
 }

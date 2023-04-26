@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/accessmodifiers/anotherpackage/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/accessmodifiers/anotherpackage/StudentChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/accessmodifiers/somepackage/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/accessmodifiers/somepackage/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructors/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructors/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorstest/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/customconstructor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/customconstructor/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/singleton/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/TA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/interfaces/APIStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/interfaces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/interfaces/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/interfaces/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/interfaces/StudentCLass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/TA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +46,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2MVjqPJSE3GJwRWj8yGUGn7mDmw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,6 +72,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/lldmar2023/threadsMar23/src/main/java/com/scaler/addersubtractoratomic&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -65,16 +92,17 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/addersubtractorimplicitlock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scaler.lld.constructors" />
       <recent name="com.scaler.printtillhundredexecutor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.scaler.lld.oop.Client">
-    <configuration name="com.scaler.addersubtractor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.addersubtractor.Client" />
+  <component name="RunManager" selected="Application.com.scaler.lld.designpatterns.singleton.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.oop.polymorphism.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.addersubtractor.*" />
+          <option name="PATTERN" value="com.scaler.lld.oop.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.addersubtractoratomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.addersubtractoratomic.Client" />
+    <configuration name="com.scaler.lld.constructorchaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.constructorchaining.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.addersubtractoratomic.*" />
+          <option name="PATTERN" value="com.scaler.lld.constructorchaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.addersubtractorimplicitlock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.addersubtractorimplicitlock.Client" />
+    <configuration name="com.scaler.lld.designpatterns.singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.designpatterns.singleton.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.addersubtractorimplicitlock.*" />
+          <option name="PATTERN" value="com.scaler.lld.designpatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.addersubtractorsyncmethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.addersubtractorsyncmethod.Client" />
+    <configuration name="com.scaler.lld.inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.inheritance.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.addersubtractorsyncmethod.*" />
+          <option name="PATTERN" value="com.scaler.lld.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.lld.oop.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.oop.Client" />
+    <configuration name="com.scaler.lld.interfaces.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.interfaces.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.lld.oop.*" />
+          <option name="PATTERN" value="com.scaler.lld.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.scaler.lld.oop.Client" />
-        <item itemvalue="Application.com.scaler.addersubtractoratomic.Client" />
-        <item itemvalue="Application.com.scaler.addersubtractorsyncmethod.Client" />
-        <item itemvalue="Application.com.scaler.addersubtractorimplicitlock.Client" />
-        <item itemvalue="Application.com.scaler.addersubtractor.Client" />
+        <item itemvalue="Application.com.scaler.lld.designpatterns.singleton.Client" />
+        <item itemvalue="Application.com.scaler.lld.interfaces.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.com.scaler.lld.inheritance.Client" />
+        <item itemvalue="Application.com.scaler.lld.constructorchaining.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +184,13 @@
       <workItem from="1678118998389" duration="7253000" />
       <workItem from="1678465895840" duration="4190000" />
       <workItem from="1678727670574" duration="1725000" />
-      <workItem from="1680540161159" duration="386000" />
+      <workItem from="1680540161159" duration="1274000" />
+      <workItem from="1680627140888" duration="51000" />
+      <workItem from="1680711345517" duration="4395000" />
+      <workItem from="1680887036439" duration="4021000" />
+      <workItem from="1681316238124" duration="1769000" />
+      <workItem from="1681752338643" duration="1625000" />
+      <workItem from="1682353818729" duration="1535000" />
     </task>
     <servers />
   </component>
@@ -193,13 +227,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/Client.java</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/Client.java</url>
           <line>5</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/Client.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/constructorchaining/Client.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/inheritance/Client.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/Client.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/oop/polymorphism/Client.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/singleton/Client.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/scaler/addersubtractor/Client.java</url>
