@@ -24,7 +24,27 @@ public class Client {
                 .setGender("Male")
                 .build();
 
+        Student s2 = Student.getBuilder()
+                .setAge(41)
+                .build();
+
+        // for (int i = 0; i < n; ++i) {
+        //   String name = // input
+        //   Student s = Student.getBuilder().setName(name).build();
+        // }
+
 //        Student s2 = new Student(null);
+
+//        String name = sc.getString();
+//        int age = sc.getInt();
+//        Student st = new Student(name, age);
+
+//        Student s3 = Student.getBuilder()
+//                .setName(name)
+//                .setAge(age)
+//                .build();
+
+//        Student.Builder sb = new Student.Builder();
     }
 
 }

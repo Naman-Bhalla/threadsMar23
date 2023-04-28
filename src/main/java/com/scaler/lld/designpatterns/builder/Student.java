@@ -27,6 +27,8 @@ public class Student {
         private int age;
         private String gender;
 
+        private Builder() {}
+
         public Builder setName(String name) {
             this.name = name;
             return this;
