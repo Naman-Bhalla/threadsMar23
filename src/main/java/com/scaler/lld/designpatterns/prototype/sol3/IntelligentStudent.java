@@ -9,7 +9,10 @@ public class IntelligentStudent extends Student {
     }
 
     @Override
-    public Student copy() {
+    public IntelligentStudent copy() {
+        IntelligentStudent isCopy = (IntelligentStudent) super.copy();
+        isCopy.iq = 1800;
+
         return new IntelligentStudent(this);
     }
 }

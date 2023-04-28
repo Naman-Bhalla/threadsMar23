@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol1/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol2/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/StudentRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/builder/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/IntelligentStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +167,7 @@
       <workItem from="1681752338643" duration="1625000" />
       <workItem from="1682353818729" duration="1535000" />
       <workItem from="1682528553971" duration="3235000" />
-      <workItem from="1682699950748" duration="993000" />
+      <workItem from="1682699950748" duration="2215000" />
     </task>
     <servers />
   </component>
