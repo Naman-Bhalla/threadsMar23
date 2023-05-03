@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/StudentRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ApplicationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ILogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/Log4JAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/LoggerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/Slo4JAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/log4j/Log4JSDK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/logger/LoggerAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/slo4j/LoggingAPI4J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/BirdFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/BirdType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Crow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Hen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Peacock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Sparrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/IntelligentStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -38,26 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/lldmar2023/threadsMar23/src/main/java/com/scaler/lld/designpatterns/prototype/sol3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/lldmar2023/threadsMar23/src/main/java/com/scaler/lld/designpatterns/prototype/sol3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/prototype/sol3" />
@@ -167,7 +181,9 @@
       <workItem from="1681752338643" duration="1625000" />
       <workItem from="1682353818729" duration="1535000" />
       <workItem from="1682528553971" duration="3235000" />
-      <workItem from="1682699950748" duration="2215000" />
+      <workItem from="1682699950748" duration="2732000" />
+      <workItem from="1682956098196" duration="2164000" />
+      <workItem from="1683132192314" duration="424000" />
     </task>
     <servers />
   </component>
