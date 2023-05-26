@@ -1,10 +1,27 @@
 package com.scaler.lld.designpatterns.adapter;
 
-public class ApplicationCode {
-    ILogger logger;
+import java.util.List;
 
-    public ApplicationCode(ILogger logger) {
-        this.logger = logger;
+public class ApplicationCode {
+    ILogger logger = LoggerFactory.getLoggerFromName("log4j");
+
+    Slo4JAdapter adapter = new Slo4JAdapter();
+//    List<PaymentGW>
+
+
+    public ApplicationCode() {
+    }
+
+
+
+    void doSomething() {
+        // .....
+
+        // .....
+
+        logger.log("Hey there");
+
+
     }
 }
 

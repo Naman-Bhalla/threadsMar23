@@ -5,24 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ApplicationCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ILogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/Log4JAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/LoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/Slo4JAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/log4j/Log4JSDK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/logger/LoggerAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/thirdparty/slo4j/LoggingAPI4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/BirdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/BirdType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Crow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Hen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Peacock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/birds/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/LoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ApplicationCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/adapter/ApplicationCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,8 @@
       <workItem from="1682528553971" duration="3235000" />
       <workItem from="1682699950748" duration="2732000" />
       <workItem from="1682956098196" duration="2164000" />
-      <workItem from="1683132192314" duration="424000" />
+      <workItem from="1683132192314" duration="2344000" />
+      <workItem from="1685108303598" duration="4184000" />
     </task>
     <servers />
   </component>
