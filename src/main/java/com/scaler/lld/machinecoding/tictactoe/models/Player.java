@@ -11,6 +11,10 @@ public class Player {
         this.playerType = playerType;
     }
 
+    Cell makeMove() {
+        return null;
+    }
+
     public Symbol getSymbol() {
         return symbol;
     }
