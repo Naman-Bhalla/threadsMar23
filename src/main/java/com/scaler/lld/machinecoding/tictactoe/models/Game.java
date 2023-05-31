@@ -1,6 +1,7 @@
 package com.scaler.lld.machinecoding.tictactoe.models;
 
 import com.scaler.lld.designpatterns.builder.Student;
+import com.scaler.lld.machinecoding.tictactoe.exceptions.InvalidGameParamsException;
 import com.scaler.lld.machinecoding.tictactoe.strategies.winningstrategies.WinningStrategy;
 
 import java.util.ArrayList;
@@ -247,9 +248,9 @@ public class Game {
             return true;
         }
 
-        public Game build() {
+        public Game build() throws InvalidGameParamsException {
             if (!valid()) {
-                throw new RuntimeException("Invalid params for game");
+                throw new InvalidGameParamsException("Invalid params for game");
             }
             return new Game(
                     dimension, players, winningStrategies

@@ -1,5 +1,6 @@
 package com.scaler.lld.machinecoding.tictactoe.controllers;
 
+import com.scaler.lld.machinecoding.tictactoe.exceptions.InvalidGameParamsException;
 import com.scaler.lld.machinecoding.tictactoe.models.Game;
 import com.scaler.lld.machinecoding.tictactoe.models.GameStatus;
 import com.scaler.lld.machinecoding.tictactoe.models.Player;
@@ -11,7 +12,7 @@ public class GameController {
 
     public Game createGame(int dimension,
                            List<Player> players,
-                           List<WinningStrategy> winningStrategies) {
+                           List<WinningStrategy> winningStrategies) throws InvalidGameParamsException {
 
         return Game.getBuilder()
                 .setDimension(dimension)

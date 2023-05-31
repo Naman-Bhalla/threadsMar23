@@ -1,6 +1,7 @@
 package com.scaler.lld.machinecoding.tictactoe;
 
 import com.scaler.lld.machinecoding.tictactoe.controllers.GameController;
+import com.scaler.lld.machinecoding.tictactoe.exceptions.InvalidGameParamsException;
 import com.scaler.lld.machinecoding.tictactoe.models.*;
 import com.scaler.lld.machinecoding.tictactoe.strategies.winningstrategies.OrderOneColumnWinningStrategy;
 import com.scaler.lld.machinecoding.tictactoe.strategies.winningstrategies.OrderOneDiagonalWinningStrategy;
@@ -33,8 +34,8 @@ public class Main {
                             new OrderOneRowWinningStrategy(dimension, players)
                     )
             );
-        } catch (Exception e) {
-            System.out.println("Somethng went wrong");
+        } catch (InvalidGameParamsException e) {
+            System.out.println("Seems like you gave invalid params. Update those.");
             return;
         }
 
