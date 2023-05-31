@@ -27,6 +27,6 @@ public class Client {
 //            bird = new Crow();
 //        }
 
-        bird = BirdFactory.createBirdOfType(birdType);
+//        bird = BirdFactory.createBirdOfType(birdType);
     }
 }

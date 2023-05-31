@@ -111,12 +111,48 @@ public class Game {
         return board.getBoard().get(row).get(col).getCellState().equals(CellState.EMPTY);
     }
 
+    public void undo() {
+        if (moves.size() == 0) {
+            System.out.println("No move. Can't undo.");
+            return;
+        }
+
+        Move lastMove = moves.get(moves.size() - 1);
+
+        for (WinningStrategy winningStrategy: winningStrategies) {
+            winningStrategy.handleUndo(board, lastMove);
+        }
+
+        Cell cellInBoard = lastMove.getCell();
+        cellInBoard.setCellState(CellState.EMPTY);
+        cellInBoard.setPlayer(null);
+
+        moves.remove(lastMove);
+
+        currentMovePlayerIndex -= 1;
+        currentMovePlayerIndex += players.size();
+        currentMovePlayerIndex %= players.size();
+    }
+
+    // [A B C D]
+    // ^
+    // 0
+    // -1
+    // -1 % 4 == -1
+    // (-1 + 4) == 3
+    // 3 % 4 == 3
     public void makeMove() {
         Player currentPlayer = players.get(currentMovePlayerIndex);
+        System.out.println("It is " + currentPlayer.getName() + "'s turn.");
 
-        Cell proposedCell = currentPlayer.makeMove();
+
+        Cell proposedCell = currentPlayer.makeMove(board);
+
+        System.out.println("Move made at row: " + proposedCell.getRow() +
+                " col: " + proposedCell.getCol() + ".");
 
         if (!validateMove(proposedCell)) {
+            System.out.println("Invalid move. Retry.");
             return;
         }
 

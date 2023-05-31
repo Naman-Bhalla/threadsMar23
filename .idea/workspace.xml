@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/controllers/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/controllers/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/BotPlayingStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/BotPlayingStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/EasyBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/EasyBotPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneColumnWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneColumnWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneDiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneDiagonalWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneRowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneRowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <recent name="com.scaler.printtillhundredexecutor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.scaler.lld.designpatterns.singleton.Client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scaler.lld.oop.polymorphism.Client" />
       <module name="threadsMar23" />
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.lld.constructorchaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.constructorchaining.Client" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.machinecoding.tictactoe.Main" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.lld.constructorchaining.*" />
+          <option name="PATTERN" value="com.scaler.lld.machinecoding.tictactoe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.scaler.lld.designpatterns.singleton.Client" />
         <item itemvalue="Application.com.scaler.lld.interfaces.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.scaler.lld.inheritance.Client" />
-        <item itemvalue="Application.com.scaler.lld.constructorchaining.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +180,8 @@
       <workItem from="1682956098196" duration="2164000" />
       <workItem from="1683132192314" duration="2344000" />
       <workItem from="1685108303598" duration="5516000" />
-      <workItem from="1685374657585" duration="6118000" />
+      <workItem from="1685374657585" duration="7618000" />
+      <workItem from="1685547934363" duration="4466000" />
     </task>
     <servers />
   </component>
