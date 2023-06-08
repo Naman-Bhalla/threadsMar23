@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/GateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/SpotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/feescalculatorystrategy/FeesCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/designpatterns/practicalfactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/BotPlayingStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/BotPlayingStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/EasyBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/botplayingstrategies/EasyBotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneColumnWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneColumnWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneDiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneDiagonalWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneRowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/OrderOneRowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +190,8 @@
       <workItem from="1683132192314" duration="2344000" />
       <workItem from="1685108303598" duration="5516000" />
       <workItem from="1685374657585" duration="7618000" />
-      <workItem from="1685547934363" duration="4466000" />
+      <workItem from="1685547934363" duration="5970000" />
+      <workItem from="1686152807049" duration="7106000" />
     </task>
     <servers />
   </component>
