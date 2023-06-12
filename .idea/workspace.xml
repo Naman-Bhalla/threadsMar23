@@ -5,28 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce19a563-62dc-4d44-8205-55044068212a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/controllers/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/GateStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/SpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/models/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/feescalculatorystrategy/FeesCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/ParkingLotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/exceptions/InvalidGateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/exceptions/NoAvailableSpotException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/IGateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/MySQLGateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/repositories/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/services/GenerateTicketArgumentsBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/services/ITicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/spotassignmentstrategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/dtos/GenerateTicketResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/lld/machinecoding/parkinglot/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -89,7 +85,7 @@
       <recent name="com.scaler.printtillhundredexecutor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ParkingLotApplication">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scaler.lld.oop.polymorphism.Client" />
       <module name="threadsMar23" />
@@ -116,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.lld.designpatterns.singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.designpatterns.singleton.Client" />
+    <configuration name="ParkingLotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.machinecoding.parkinglot.ParkingLotApplication" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.lld.designpatterns.singleton.*" />
+          <option name="PATTERN" value="com.scaler.lld.machinecoding.parkinglot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.scaler.lld.inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.inheritance.Client" />
+    <configuration name="com.scaler.lld.designpatterns.singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.lld.designpatterns.singleton.Client" />
       <module name="threadsMar23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.lld.inheritance.*" />
+          <option name="PATTERN" value="com.scaler.lld.designpatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkingLotApplication" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.scaler.lld.designpatterns.singleton.Client" />
         <item itemvalue="Application.com.scaler.lld.interfaces.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.scaler.lld.inheritance.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +188,8 @@
       <workItem from="1685374657585" duration="7618000" />
       <workItem from="1685547934363" duration="5970000" />
       <workItem from="1686152807049" duration="7106000" />
+      <workItem from="1686211339393" duration="34000" />
+      <workItem from="1686580387870" duration="9293000" />
     </task>
     <servers />
   </component>
