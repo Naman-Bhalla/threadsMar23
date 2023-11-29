@@ -13,6 +13,6 @@ public class IntelligentStudent extends Student {
         IntelligentStudent isCopy = (IntelligentStudent) super.copy();
         isCopy.iq = 1800;
 
-        return new IntelligentStudent(this);
+        return isCopy;
     }
 }
